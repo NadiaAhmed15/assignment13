@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-image: url('hero.jpg');
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Work Section Styles */
+.work {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 25px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container .image {
+    width: 30%;
+    margin: 0.5rem;
+}
+
+/* Features Section Styles */
+.container-features {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(239, 232, 232);
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: blue;
+    margin: 20px auto;
+}
+
+/* Newsletter Section Styles */
+.container5 {
+ /* max-width: 600px;  */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: start;
+    background-color: rgb(239, 232, 232);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: rgb(239, 232, 232);
+    justify-content: space-evenly;
+}
+
+input[type="email"] {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    width: 50%;
+
+    
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+.Copyright {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+
+  }
